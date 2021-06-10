@@ -4,6 +4,7 @@ call plug#begin()
 Plug 'preservim/NERDTree'
 Plug 'vim-airline/vim-airline'
 Plug 'fatih/vim-go'
+" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'raimondi/delimitmate'
 Plug 'martin-svk/vim-yaml'
 Plug 'borissov/vim-mysql-suggestions'
