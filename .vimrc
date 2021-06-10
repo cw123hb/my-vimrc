@@ -10,6 +10,7 @@ Plug 'martin-svk/vim-yaml'
 Plug 'borissov/vim-mysql-suggestions'
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/syntastic'
+" Plug 'lervag/vimtex'
 call plug#end()
 
 " Don't try to be vi compatible
