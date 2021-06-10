@@ -115,3 +115,9 @@ let g:solarized_termtrans=1
 " put https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 " in ~/.vim/colors/ and uncomment:
 " colorscheme solarized
+"
+"
+" Tips
+" Vertical Screen Ctrl + w, ‘s’.  
+" Horizontal Screen Ctrl + w, ‘v’.
+" Close all windows, except current - CTRL+w and then o
