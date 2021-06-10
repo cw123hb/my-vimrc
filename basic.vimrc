@@ -2,12 +2,21 @@
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 call plug#begin()
 Plug 'preservim/NERDTree'
-
-
+Plug 'vim-airline/vim-airline'
+Plug 'fatih/vim-go'
+Plug 'raimondi/delimitmate'
+Plug 'martin-svk/vim-yaml'
+Plug 'borissov/vim-mysql-suggestions'
+Plug 'pangloss/vim-javascript'
+Plug 'scrooloose/syntastic'
 call plug#end()
 
 " Don't try to be vi compatible
 set nocompatible
+
+" Interactive mouse
+set mouse=a
+set ttymouse=xterm2
 
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
