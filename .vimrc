@@ -13,7 +13,9 @@ Plug 'scrooloose/syntastic'
 Plug 'brennier/quicktex'
 Plug 'junegunn/fzf', { 'do': './install --all'}
 " Plug 'junegunn/fzf.vim'
-Plug 'tpope/vim-markdown'
+" Plug 'tpope/vim-markdown'
+" Markdown
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown'}
 call plug#end()
 
 " Don't try to be vi compatible
