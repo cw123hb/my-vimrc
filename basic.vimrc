@@ -14,9 +14,14 @@ call plug#end()
 " Don't try to be vi compatible
 set nocompatible
 
+set backspace=indent,eol,start
+
 " Interactive mouse
 set mouse=a
 set ttymouse=xterm2
+set backspace=indent,eol,start
+set cmdheight=2
+set updatetime=300
 
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
