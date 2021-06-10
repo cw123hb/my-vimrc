@@ -11,6 +11,8 @@ Plug 'borissov/vim-mysql-suggestions'
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/syntastic'
 Plug 'brennier/quicktex'
+Plug 'junegunn/fzf', { 'do': './install --all'}
+" Plug 'junegunn/fzf.vim'
 call plug#end()
 
 " Don't try to be vi compatible
