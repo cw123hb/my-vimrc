@@ -263,3 +263,4 @@ let g:coc_disable_startup_warning = 1
 " Tips
 " Vertical Screen Ctrl + w, ‘s’.  
 " Horizontal Screen Ctrl + w, ‘v’.
+" Close all windows, except current - CTRL+w and then o
