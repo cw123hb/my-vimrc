@@ -259,3 +259,7 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 let g:coc_disable_startup_warning = 1
+"
+" Tips
+" Vertical Screen Ctrl + w, ‘s’.  
+" Horizontal Screen Ctrl + w, ‘v’.
